@@ -58,6 +58,7 @@ setup(
 
     description='Unofficial Tellus API Client',
     long_description=long_description,
+    long_description_content_type='text/markdown',
     keywords='Tellus, API',
 
     classifiers=[

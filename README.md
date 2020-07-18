@@ -7,7 +7,8 @@
 Unofficial Tellus API Client
 
 ※ This library can only retrieve data on Jupyter in the Tellus development environment.
-※ このライブラリはTellusの開発環境のJupyter上でしかデータを取得できません。
+
+※ このライブラリは Tellus の開発環境の Jupyter 上でしかデータを取得できません。
 
 ## Installation
 
