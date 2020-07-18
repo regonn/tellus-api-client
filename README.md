@@ -14,6 +14,10 @@ Unofficial Tellus API Client
 
 `$ pip install tellus-api-client`
 
+## Sample
+
+![Sample Image](https://raw.githubusercontent.com/regonn/tellus-api-client/master/sample/sample_image.png)
+
 ## License
 
 This project is licensed under the terms of the MIT license. See [LICENSE](https://github.com/regonn/tellus-api-client/blob/master/LICENSE.txt) for additional details.
