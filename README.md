@@ -6,6 +6,8 @@
 
 Unofficial Tellus API Client
 
+非公式 Tellus API クライアント
+
 ※ This library can only retrieve data on Jupyter in the Tellus development environment.
 
 ※ このライブラリは Tellus の開発環境の Jupyter 上でしかデータを取得できません。
@@ -21,3 +23,7 @@ Unofficial Tellus API Client
 ## License
 
 This project is licensed under the terms of the MIT license. See [LICENSE](https://github.com/regonn/tellus-api-client/blob/master/LICENSE.txt) for additional details.
+
+## Tellus User Group Community(Tellusユーザグループコミュニティ)
+
+https://discord.gg/k2yvdjh
