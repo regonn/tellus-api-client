@@ -36,9 +36,8 @@ assert author
 assert author_email
 assert url
 
-with open('README.md', encoding='utf-8') as f:
+with open(path.join(root_dir, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
-
 
 setup(
     name=package_name,
@@ -70,4 +69,9 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Framework :: Jupyter'
     ],
+    python_requires='~=3.7',
+    project_urls={
+        'Bug Reports': 'https://github.com/regonn/tellus-api-client/issues',
+        'Source': 'https://github.com/regonn/tellus-api-client',
+    },
 )
