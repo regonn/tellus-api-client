@@ -5,6 +5,6 @@ __license__ = 'MIT'
 __author__ = 'regonn'
 __author_email__ = 'programmer@haizine.art'
 __url__ = 'https://github.com/regonn/tellus-api-client'
-__version__ = '0.0.4'
+__version__ = '0.0.5'
 
 __all__ = ['main']
