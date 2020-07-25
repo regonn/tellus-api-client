@@ -20,3 +20,13 @@ class TellusApiClient():
 
         r = requests.get(url, headers=headers, params=params)
         return io.imread(BytesIO(r.content))
+
+    def get_osm(self, zoom: int, xtile: int, ytile: int):
+        url: str = 'https://gisapi.{}/osm/{}/{}/{}.png'.format(
+            DOMAIN, zoom, xtile, ytile)
+        headers: dict = {
+            "Authorization": "Bearer " + self.token
+        }
+
+        r = requests.get(url, headers=headers)
+        return io.imread(BytesIO(r.content))
